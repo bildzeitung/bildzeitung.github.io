@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Advent of code: Day 2"
+date:   2015-12-02 9:00:00
+categories: code 
+---
+
+[Advent of code][advent] is a fun programming challenge site running over Christmas. Discussion [over on Reddit][reddit].
+
+The [Day 2][day] puzzle is a remember-the-property puzzle -- some simple geometry with the minor twist that instead of checking a bunch of combinations of length, width, and height, all that's necessary is to sort the input values. Sometimes it's nice to work with commutative operators.
+
+It's basic math and [some Python][code] to sort through it all was sufficient.
+
+[advent]: http://adventofcode.com
+[reddit]: https://www.reddit.com/r/adventofcode/
+[day]: http://adventofcode.com/day/2
+[code]: https://github.com/bildzeitung/adventofcode/tree/master/2
