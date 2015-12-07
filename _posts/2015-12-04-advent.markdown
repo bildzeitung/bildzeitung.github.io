@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Advent of code: Day 4"
+date:   2015-12-04 9:00:00
+categories: code 
+---
+
+[Advent of code][advent] is a fun programming challenge site running over Christmas. Discussion [over on Reddit][reddit].
+
+The [Day 4][day] puzzle is definitely a mining exercise, which made me think that a C solution would be the best place to start, but it turns out that you don't have to mine all that hard, so the [Python solution][code] was fast enough. I would argue that this is a straight ahead read the spec and use the appropriate library problem, with space for those who want to cram in some basic multiprocessing.
+
+[advent]: http://adventofcode.com
+[reddit]: https://www.reddit.com/r/adventofcode/
+[day]: http://adventofcode.com/day/4
+[code]: https://github.com/bildzeitung/adventofcode/tree/master/4

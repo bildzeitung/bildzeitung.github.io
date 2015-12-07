@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Advent of code: Day 5"
+date:   2015-12-05 9:00:00
+categories: code 
+---
+
+[Advent of code][advent] is a fun programming challenge site running over Christmas. Discussion [over on Reddit][reddit].
+
+For [Day 5][day], knowledge of what regexes can do is needed. While the languages presented are not regular, they are amenable to most extended regex implementations. Both parts of this problem were [entirely solvable via bash scripts][code], which makes my little Unix heart proud.
+
+[advent]: http://adventofcode.com
+[reddit]: https://www.reddit.com/r/adventofcode/
+[day]: http://adventofcode.com/day/5
+[code]: https://github.com/bildzeitung/adventofcode/tree/master/5
