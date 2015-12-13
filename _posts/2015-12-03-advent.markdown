@@ -5,8 +5,6 @@ date:   2015-12-03 9:00:00
 categories: code 
 ---
 
-[Advent of code][advent] is a fun programming challenge site running over Christmas. Discussion [over on Reddit][reddit].
-
 The [Day 3][day] puzzle presents as overly complicated, given a two-dimensional space, but is an encoding and memoization problem solvable in O(n) with respect to the input.
 
 My [solution][code] is significantly less elegant than the best Python is saw for this. I keep forgetting that a case statement is more or less a lookup table, which is doable with a dictionary.
