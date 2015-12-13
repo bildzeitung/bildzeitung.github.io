@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Advent of code: Day 8"
+date:   2015-12-08 9:00:00
+categories: code 
+---
+
+[Advent of code][advent] is a fun programming challenge site running over Christmas. Discussion [over on Reddit][reddit].
+
+The trick with this one is to think carefully about what is actually being calculated. Many folks sorted this out by running the strings through an *eval* of some kind. I'm not that clever, so I sorted it out with a Perl 1-liner using a sequence of string substitutions. [Both parts][code] were amenable to this treatment.
+
+[advent]: http://adventofcode.com
+[reddit]: https://www.reddit.com/r/adventofcode/
+[day]: http://adventofcode.com/day/8
+[code]: https://github.com/bildzeitung/adventofcode/tree/master/8

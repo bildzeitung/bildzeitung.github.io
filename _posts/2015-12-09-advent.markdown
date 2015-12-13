@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Advent of code: Day 9"
+date:   2015-12-09 9:00:00
+categories: code 
+---
+
+[Advent of code][advent] is a fun programming challenge site running over Christmas. Discussion [over on Reddit][reddit].
+
+Today's challenge was to brute force a travelling salesman problem. What I learned after doing this was that Python's *itertools* make the job I had in mind a lot easier. My turd of an answer is [here][code].
+
+[advent]: http://adventofcode.com
+[reddit]: https://www.reddit.com/r/adventofcode/
+[day]: http://adventofcode.com/day/9
+[code]: https://github.com/bildzeitung/adventofcode/tree/master/9
