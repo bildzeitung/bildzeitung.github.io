@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Advent of code: Day 14"
+date:   2015-12-14 09:00:00
+categories: code 
+---
+
+[This problem][day] was about quickly deriving a formula, and then using it a couple different ways.
+
+The distance a reindeer fly can be calculated for an arbitrary time, so writing the function that way makes the first part trivial. You don't even need to know the reindeer's name -- only the flight characteristics.
+
+For the second part, it's a piecewise calculation for each second, since a winner needs to be found after each second. In other words, this is a full simulation of the race.
+
+In theory, part 1 could also be a full simulation, too, which would lower the churn on part 2, but I didn't think of it that way.
+
+Again, using Python list comprehensions and other tricks makes the [solution][code] look pretty clean.
+
+[day]: http://adventofcode.com/day/14
+[code]: https://github.com/bildzeitung/adventofcode/tree/master/14
