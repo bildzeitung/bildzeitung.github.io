@@ -5,15 +5,13 @@ date:   2015-12-10 09:00:00
 categories: code 
 ---
 
-[Advent of code][advent] is a fun programming challenge site running over Christmas. Discussion [over on Reddit][reddit].
+There are a couple of different approaches to [today's problem][day]; one being brute force, and the other a sophisticated state machine.
 
-This problem also resulted in a manual sequence generation, which on the second part took a while. I started off using a regex for this, but that proved far too slow, so I walked the string manually after that.
+I chose to do manual sequence generation, which on the second part took a while. I started off using a regex for this, but that proved far too slow, so I walked the string manually after that.
 
 The clever thing to do is to implement what amounts to a fancy state diagram of repeating sequences -- an effort that is, sadly, too time consuming for this exercise. That such a thing exists, however, is entirely fascinating, and my respect for John Conway, already very high for many years, continues to increase.
 
 Code [here][code]
 
-[advent]: http://adventofcode.com
-[reddit]: https://www.reddit.com/r/adventofcode/
 [day]: http://adventofcode.com/day/10
 [code]: https://github.com/bildzeitung/adventofcode/tree/master/10

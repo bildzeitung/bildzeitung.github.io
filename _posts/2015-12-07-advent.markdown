@@ -5,15 +5,13 @@ date:   2015-12-07 9:00:00
 categories: code 
 ---
 
-[Advent of code][advent] is a fun programming challenge site running over Christmas. Discussion [over on Reddit][reddit].
+There are lots of clever ways to approach [Day 7][day] -- a logic language (Prolog), a functional language that will just resolve the whole circuit by definition -- that sort of thing.
 
-There are lots of clever ways to approach [Day 7][day] -- a logic language (Prolog), a functional language that will just resolve the whole circuit by definition -- that sort of thing. Since I'm currently a Python programmer, and this is a warm-up for the day, I opted for the brute force solution of passing over the data until every wire is resolved.
+Since I'm currently a Python programmer, and this is a warm-up for the day, I opted for the brute force solution of passing over the data until every wire is resolved. It's been pointed out to me that this is a very compiler-centric / parser kind of solution, and yes, that's the way I thought of its.
 
 At least I didn't miss at the solution this time. 
 
 Solution [here][code].
 
-[advent]: http://adventofcode.com
-[reddit]: https://www.reddit.com/r/adventofcode/
 [day]: http://adventofcode.com/day/7
 [code]: https://github.com/bildzeitung/adventofcode/tree/master/7
