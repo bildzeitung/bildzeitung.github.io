@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Advent of code: Day 15"
+date:   2015-12-15 09:00:00
+categories: code 
+---
+
+[Day 15][day] is an optimisation problem, and it can be attacked as a constraints-based linear program.
+
+I spent some cycles looking for linear programming packages, but bailed on it and went [brute-force][code] instead. To expedite the calculations, I used NumPy's vector and matrix methods. To generate the solution vectors, I used a generator that treated the problem as a sort of carry-under system.
+
+[day]: http://adventofcode.com/day/15
+[code]: https://github.com/bildzeitung/adventofcode/tree/master/15
