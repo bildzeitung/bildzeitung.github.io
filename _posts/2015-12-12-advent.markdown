@@ -5,13 +5,9 @@ date:   2015-12-12 09:00:00
 categories: code 
 ---
 
-[Advent of code][advent] is a fun programming challenge site running over Christmas. Discussion [over on Reddit][reddit].
-
 Made the leader board! I was #82.
 
 This was a straightforward recursive munge of JSON input data. Python's built-in library is very good, so [the code][code] is very short :)
 
-[advent]: http://adventofcode.com
-[reddit]: https://www.reddit.com/r/adventofcode/
 [day]: http://adventofcode.com/day/12
 [code]: https://github.com/bildzeitung/adventofcode/tree/master/12

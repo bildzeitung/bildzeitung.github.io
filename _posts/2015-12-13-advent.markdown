@@ -5,13 +5,11 @@ date:   2015-12-13 09:00:00
 categories: code 
 ---
 
-[Advent of code][advent] is a fun programming challenge site running over Christmas. Discussion [over on Reddit][reddit].
+[Seating problems][day] are pretty classic, and this again involves iterating through a bunch of permutations. 
 
 Parsing the input data is getting a bit easier, and this uses tricks from prior problems. For example, this problem also involves building up a matrix, as was the TSP problem.
 
-For this one, I got to polish up a bunch of the *itertools* tricks I'd seen employed in the TSP and other problems, so the solution (brute force though it is) looks quite elegant.
+For this one, I got to polish up a bunch of the *itertools* tricks I'd seen employed in the TSP and other problems, so [the solution][code] (brute force though it is) looks quite elegant.
 
-[advent]: http://adventofcode.com
-[reddit]: https://www.reddit.com/r/adventofcode/
 [day]: http://adventofcode.com/day/13
 [code]: https://github.com/bildzeitung/adventofcode/tree/master/13

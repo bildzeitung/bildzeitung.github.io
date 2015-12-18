@@ -5,13 +5,11 @@ date:   2015-12-11 09:00:00
 categories: code 
 ---
 
-[Advent of code][advent] is a fun programming challenge site running over Christmas. Discussion [over on Reddit][reddit].
+I totally over-thought this one. Greg had a much more elegant solution to calculating the next string (treating it as a radix).
 
-I totally over-thought this one. Greg had a much more elegant solution to calculating the next string. I did manage to work in some minor optimisations, however, to exclude piles of potential solution candidates from hitting the more complicated (regex, string walk) validation steps.
+I did manage to work in some minor optimisations, however, to exclude piles of potential solution candidates from hitting the more complicated (regex, string walk) validation steps.
 
 Code [here][code]
 
-[advent]: http://adventofcode.com
-[reddit]: https://www.reddit.com/r/adventofcode/
 [day]: http://adventofcode.com/day/11
 [code]: https://github.com/bildzeitung/adventofcode/tree/master/11
