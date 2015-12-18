@@ -17,4 +17,4 @@ cat paren.in | perl -ne 'print join("\n",split //);' | sort | uniq -c
 The [code is here][code].
 
 [day]: http://adventofcode.com/day/1
-[code]: https://github.com/bildzeitung/adventofcode/tree/master/1
+[code]: https://github.com/bildzeitung/adventofcode/tree/master/01

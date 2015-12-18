@@ -14,5 +14,5 @@ I confess, though, this is the first problem where I've whiffed on the answer. I
 Solution [here][code].
 
 [day]: http://adventofcode.com/day/6
-[code]: https://github.com/bildzeitung/adventofcode/tree/master/6
+[code]: https://github.com/bildzeitung/adventofcode/tree/master/06
 [numpy]: http://www.numpy.org

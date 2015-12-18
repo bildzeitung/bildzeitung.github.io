@@ -10,4 +10,4 @@ The [Day 4][day] puzzle is definitely a mining exercise, which made me think tha
 It turns out that you don't have to mine all that hard, though, so the [Python solution][code] was fast enough. I would argue that this is a straight ahead read the spec and use the appropriate library problem, with space for those who want to cram in some basic multiprocessing.
 
 [day]: http://adventofcode.com/day/4
-[code]: https://github.com/bildzeitung/adventofcode/tree/master/4
+[code]: https://github.com/bildzeitung/adventofcode/tree/master/04

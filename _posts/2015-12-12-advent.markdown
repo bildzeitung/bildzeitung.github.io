@@ -5,7 +5,7 @@ date:   2015-12-12 09:00:00
 categories: code 
 ---
 
-Made the leader board! I was #82.
+Made the leader board for [today's problem][day]! I was #82.
 
 This was a straightforward recursive munge of JSON input data. Python's built-in library is very good, so [the code][code] is very short :)
 

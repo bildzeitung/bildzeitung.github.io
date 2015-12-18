@@ -10,4 +10,4 @@ categories: code
 What I learned after doing this was that Python's *itertools* make the job I had in mind a lot easier. My turd of an answer is [here][code].
 
 [day]: http://adventofcode.com/day/9
-[code]: https://github.com/bildzeitung/adventofcode/tree/master/9
+[code]: https://github.com/bildzeitung/adventofcode/tree/master/09

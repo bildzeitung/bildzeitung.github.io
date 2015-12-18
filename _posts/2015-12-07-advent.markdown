@@ -14,4 +14,4 @@ At least I didn't miss at the solution this time.
 Solution [here][code].
 
 [day]: http://adventofcode.com/day/7
-[code]: https://github.com/bildzeitung/adventofcode/tree/master/7
+[code]: https://github.com/bildzeitung/adventofcode/tree/master/07
