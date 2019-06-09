@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows Code Python on hand | paper | lake</title>
+    <link>http://example.org/categories/windows-code-python/</link>
+    <description>Recent content in Windows Code Python on hand | paper | lake</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 May 2018 16:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/categories/windows-code-python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Miniconda on Windows 10</title>
+      <link>http://example.org/posts/2018-05-13-miniconda3/</link>
+      <pubDate>Sun, 13 May 2018 16:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2018-05-13-miniconda3/</guid>
+      <description>I&amp;rsquo;m at Pycon 2018. It&amp;rsquo;s been lovely; the keynotes, the dinners, the talks, the people &amp;mdash; all of it.
+The development sprints are a part of conference I am particularly interested in, and the organisers created a helpful workshop to help prepare folks.
+Part of this is installing Anaconda as a way of driving virtual environments. It&amp;rsquo;s a good plan, and even though Visual Studio Express installs one for you already, I decided to be strict about all this and download it from here, as directed.</description>
+    </item>
+    
+  </channel>
+</rss>

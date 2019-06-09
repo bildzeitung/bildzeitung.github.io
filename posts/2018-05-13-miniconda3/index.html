@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>hand | paper | lake  | Miniconda on Windows 10</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.40.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+
+    <meta property="og:title" content="Miniconda on Windows 10" />
+<meta property="og:description" content="I&rsquo;m at Pycon 2018. It&rsquo;s been lovely; the keynotes, the dinners, the talks, the people &mdash; all of it.
+The development sprints are a part of conference I am particularly interested in, and the organisers created a helpful workshop to help prepare folks.
+Part of this is installing Anaconda as a way of driving virtual environments. It&rsquo;s a good plan, and even though Visual Studio Express installs one for you already, I decided to be strict about all this and download it from here, as directed." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/2018-05-13-miniconda3/" />
+
+
+
+<meta property="article:published_time" content="2018-05-13T16:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2018-05-13T16:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Miniconda on Windows 10">
+<meta itemprop="description" content="I&rsquo;m at Pycon 2018. It&rsquo;s been lovely; the keynotes, the dinners, the talks, the people &mdash; all of it.
+The development sprints are a part of conference I am particularly interested in, and the organisers created a helpful workshop to help prepare folks.
+Part of this is installing Anaconda as a way of driving virtual environments. It&rsquo;s a good plan, and even though Visual Studio Express installs one for you already, I decided to be strict about all this and download it from here, as directed.">
+
+
+<meta itemprop="datePublished" content="2018-05-13T16:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-05-13T16:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="381">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Miniconda on Windows 10"/>
+<meta name="twitter:description" content="I&rsquo;m at Pycon 2018. It&rsquo;s been lovely; the keynotes, the dinners, the talks, the people &mdash; all of it.
+The development sprints are a part of conference I am particularly interested in, and the organisers created a helpful workshop to help prepare folks.
+Part of this is installing Anaconda as a way of driving virtual environments. It&rsquo;s a good plan, and even though Visual Studio Express installs one for you already, I decided to be strict about all this and download it from here, as directed."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://example.org/" class="f3 fw2 hover-white no-underline white-90 dib">
+      hand | paper | lake
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Miniconda on Windows 10</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2018-05-13T16:00:00Z">May 13, 2018</time>      
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>I&rsquo;m at <a href="https://us.pycon.org/2018">Pycon 2018</a>. It&rsquo;s been lovely; the keynotes, the dinners, the talks, the people &mdash; all of it.</p>
+
+<p>The <a href="https://us.pycon.org/2018/community/sprints/">development sprints</a> are a part of conference I am particularly interested in, and the organisers created <a href="https://github.com/chalmerlowe/intro_to_sprinting">a helpful workshop</a> to help prepare folks.</p>
+
+<p>Part of this is installing Anaconda as a way of driving virtual environments. It&rsquo;s a good plan, and even though Visual Studio Express installs one for you already, I decided to be strict about all this and download it <a href="https://conda.io/miniconda.html">from here</a>, as directed.</p>
+
+<p>Of course, once I did so, I opened up a console window and &ndash; nothing. No &ldquo;conda&rdquo;. But I hadn&rsquo;t told the installer to mess with my %PATH%, so that makes sense. The installer <em>does</em> claim that there&rsquo;s a shortcut that it will place for a console. Except that the only shortcut was for Visual Studio&rsquo;s Anaconda.</p>
+
+<p>And instead I hit maybe <a href="https://github.com/ContinuumIO/anaconda-issues/issues/352">this issue</a>? It&rsquo;s three years old. It has folks commenting on it for all but this year.</p>
+
+<p>To solve, I:
+* opened a regular console
+* navigated to where Anaconda is installed
+* did a <code>conda install conda_shortcut</code></p>
+
+<p>The result was another item in the Start menu that pointed, indeed, to the correct Anaconda.</p>
+
+<p>BUT, it&rsquo;s in the <em>Recently Added</em> list, and when I look at the folder its in, it is <em>not listed</em> on the Start Menu, as it has the same name as an existing folder. Instead, it&rsquo;s in the roaming profile section and now, I assume, being hidden by Visual Studio&rsquo;s entry.</p>
+
+<p>So I don&rsquo;t know if that bug is what I hit, or whether the installer silently failed in trying to overwrite a value, or whether it was right all along and the duplicate I have has been hiding it.</p>
+
+<p>There are no good answers here. I think I&rsquo;ve done reasonable things (installed a dev tool, Visual Studio, and then installed another dev tool, Anaconda, on the same machine). Is Visual Studio to blame for the way it sub-installs Anaconda? Should the miniconda installer be smarter? Is that bug something I hit and now I&rsquo;m seeing a 2nd issue?</p>
+
+<p>All I can say is:
+* warning: miniconda installer may require a package to write a shortcut link for a console
+* warning: installing multiple anacondas may have side effects</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6">
+        
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy; 2019 hand | paper | lake
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hand | paper | lake</title>
+    <link>http://example.org/</link>
+    <description>Recent content on hand | paper | lake</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 May 2018 16:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Miniconda on Windows 10</title>
+      <link>http://example.org/posts/2018-05-13-miniconda3/</link>
+      <pubDate>Sun, 13 May 2018 16:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2018-05-13-miniconda3/</guid>
+      <description>I&amp;rsquo;m at Pycon 2018. It&amp;rsquo;s been lovely; the keynotes, the dinners, the talks, the people &amp;mdash; all of it.
+The development sprints are a part of conference I am particularly interested in, and the organisers created a helpful workshop to help prepare folks.
+Part of this is installing Anaconda as a way of driving virtual environments. It&amp;rsquo;s a good plan, and even though Visual Studio Express installs one for you already, I decided to be strict about all this and download it from here, as directed.</description>
+    </item>
+    
+    <item>
+      <title>Setting up fast.ai course environment</title>
+      <link>http://example.org/posts/2018-03-26-fastai/</link>
+      <pubDate>Mon, 26 Mar 2018 16:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2018-03-26-fastai/</guid>
+      <description>The fast.ai course claims to help develop some competence in Deep Learning, so I thought I&amp;rsquo;d give it a go.
+The material is divided into several lessons, and the first one concerns itself with setting up an environment. The environment is geared towards using a VM from an IaaS provider. But, I have a fancy pants Windows box with a fancy pants graphics card.
+Base software At a minimum, I need to source and the course materials * Installed Git For Windows (aka git-bash) * Cloned the repo into the fastai directory</description>
+    </item>
+    
+    <item>
+      <title>Synacor update</title>
+      <link>http://example.org/posts/2016-07-08-update/</link>
+      <pubDate>Fri, 08 Jul 2016 16:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2016-07-08-update/</guid>
+      <description>I completed the Synacor Challenge a while back. I was also fun, and reminiscent of an ICFP Contest problem.
+The task is to collect codes emitted by a VM by solving various problems within it, and within the context of the text adventure game that it ran.</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Aftermath</title>
+      <link>http://example.org/posts/2016-01-01-post/</link>
+      <pubDate>Fri, 01 Jan 2016 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2016-01-01-post/</guid>
+      <description>The Advent of Code was super fun. The same fellow did another challenge, so I&amp;rsquo;m going to do that next.</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Day 25</title>
+      <link>http://example.org/posts/2015-12-25-advent/</link>
+      <pubDate>Fri, 25 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-25-advent/</guid>
+      <description>The last day is reasonably quick, although in my tired state it took me longer to math it out.
+Essentially, you have to figure out which number to count up to in the table (e.g. resolve the coordinates for row and column into a cell), and then calculate the value to that point.</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Day 24</title>
+      <link>http://example.org/posts/2015-12-24-advent/</link>
+      <pubDate>Thu, 24 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-24-advent/</guid>
+      <description>This problem is a bit nasty.
+In theory, it&amp;rsquo;s an exhaustive search of a set partitioning scheme, but it&amp;rsquo;s barely feasible. What I ended up doing was trying the partial best results that were found, hoping that they would be good enough. Fortunately, they were.</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Day 23</title>
+      <link>http://example.org/posts/2015-12-23-advent/</link>
+      <pubDate>Wed, 23 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-23-advent/</guid>
+      <description>Virtual machines are a bit of specialty of mine.
+At least, the code to run them is. This was my best showing &amp;ndash; 35th on the leader board &amp;ndash; and I suspect that if I typed faster and ran the code a little less that I&amp;rsquo;d have done better. But, I&amp;rsquo;m slow and plod and all that. This problem was straightforward &amp;ndash; implement a VM tuned to solving the Collatz Conjecture.</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Day 22</title>
+      <link>http://example.org/posts/2015-12-22-advent/</link>
+      <pubDate>Tue, 22 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-22-advent/</guid>
+      <description>Another RPG problem today, except this time it is a simulation.
+I treated this as a game simulation, so I did a breadth-first search along objects representing the game state, with the player choices for the child nodes. There are plenty of pruning conditions, including using found solutions as upper bounds on the problem space. The pruning makes a full brute-force search feasible.</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Day 21</title>
+      <link>http://example.org/posts/2015-12-21-advent/</link>
+      <pubDate>Mon, 21 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-21-advent/</guid>
+      <description>Today&amp;rsquo;s problem looks like a simulation, but can be fairly easily math&amp;rsquo;d.
+In this case, the idea is to load the data and run an exhaustive search of potential player loadouts, calculating the number of turns it would take the player to kill the boss, compared to the number of turns it would take for the boss to kill the player. Then, save all of the costs associated with player wins and output the smallest.</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Day 20</title>
+      <link>http://example.org/posts/2015-12-20-advent/</link>
+      <pubDate>Sun, 20 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-20-advent/</guid>
+      <description>There are a couple approaches to today&amp;rsquo;s problem, including some math ones. I missed most of the math, though.
+The infinite houses business comes up often enough in undergrad math courses that it&amp;rsquo;s not unfamiliar, but having to solve for it, or sieve for a solution, is still something that takes doing. What I ended up with was a solution that tries to start from a reasonable place, so as to cut down the search space some.</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Day 19</title>
+      <link>http://example.org/posts/2015-12-19-advent/</link>
+      <pubDate>Sat, 19 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-19-advent/</guid>
+      <description>Today&amp;rsquo;s puzzle displays the largest difficulty gap so far, as the first part is an easy regex-based enumeration and the second is a parser / derivation puzzle based on the same input data.
+I began by assuming that the language being represented was parsable by a basic bottom-up parser &amp;ndash; no lookahead or anything else. It turns out that, without analysis, my assumption was reasonable and the solution works just fine.</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Day 18</title>
+      <link>http://example.org/posts/2015-12-18-advent/</link>
+      <pubDate>Fri, 18 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-18-advent/</guid>
+      <description>And we get a visit from Conway&amp;rsquo;s Game of Life.
+I did a classic matrix-based solution, but one of the folks over on Reddit had a marvelous set-based solution in Python that I&amp;rsquo;m entirely envious of.</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Day 17</title>
+      <link>http://example.org/posts/2015-12-17-advent/</link>
+      <pubDate>Thu, 17 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-17-advent/</guid>
+      <description>I can&amp;rsquo;t really remember if Day 17 is a knapsack problem or a sub-set sum problem.
+Either way, a smart exhaustive search does the trick. Essentially, I ordered the containers and treated the solution space as a head-tail problem (take the head, analyse the tail), and prune solution subtrees based on that. The code is short, elegant, and gets to the right answers quickly enough.</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Day 16</title>
+      <link>http://example.org/posts/2015-12-16-advent/</link>
+      <pubDate>Wed, 16 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-16-advent/</guid>
+      <description>Once again, I totally over-complicated Day 16. It&amp;rsquo;s a simple profile match, but I thought I needed some sort of fuzzy scoring method.
+Hamming distance? Euclidean? Nah. Just match &amp;lsquo;em up.</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Day 15</title>
+      <link>http://example.org/posts/2015-12-15-advent/</link>
+      <pubDate>Tue, 15 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-15-advent/</guid>
+      <description>Day 15 is an optimisation problem, and it can be attacked as a constraints-based linear program.
+I spent some cycles looking for linear programming packages, but bailed on it and went brute-force instead. To expedite the calculations, I used NumPy&amp;rsquo;s vector and matrix methods. To generate the solution vectors, I used a generator that treated the problem as a sort of carry-under system.</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Day 14</title>
+      <link>http://example.org/posts/2015-12-14-advent/</link>
+      <pubDate>Mon, 14 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-14-advent/</guid>
+      <description>This problem was about quickly deriving a formula, and then using it a couple different ways.
+The distance a reindeer fly can be calculated for an arbitrary time, so writing the function that way makes the first part trivial. You don&amp;rsquo;t even need to know the reindeer&amp;rsquo;s name &amp;ndash; only the flight characteristics.
+For the second part, it&amp;rsquo;s a piecewise calculation for each second, since a winner needs to be found after each second.</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Day 13</title>
+      <link>http://example.org/posts/2015-12-13-advent/</link>
+      <pubDate>Sun, 13 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-13-advent/</guid>
+      <description>Seating problems are pretty classic, and this again involves iterating through a bunch of permutations.
+Parsing the input data is getting a bit easier, and this uses tricks from prior problems. For example, this problem also involves building up a matrix, as was the TSP problem.
+For this one, I got to polish up a bunch of the itertools tricks I&amp;rsquo;d seen employed in the TSP and other problems, so the solution (brute force though it is) looks quite elegant.</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Day 12</title>
+      <link>http://example.org/posts/2015-12-12-advent/</link>
+      <pubDate>Sat, 12 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-12-advent/</guid>
+      <description>Made the leader board for today&amp;rsquo;s problem! I was #82.
+This was a straightforward recursive munge of JSON input data. Python&amp;rsquo;s built-in library is very good, so the code is very short :)</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Day 11</title>
+      <link>http://example.org/posts/2015-12-11-advent/</link>
+      <pubDate>Fri, 11 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-11-advent/</guid>
+      <description>I totally over-thought Day 11. Greg had a much more elegant solution to calculating the next string (treating it as a radix).
+I did manage to work in some minor optimisations, however, to exclude piles of potential solution candidates from hitting the more complicated (regex, string walk) validation steps.
+Code here</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Day 10</title>
+      <link>http://example.org/posts/2015-12-10-advent/</link>
+      <pubDate>Thu, 10 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-10-advent/</guid>
+      <description>There are a couple of different approaches to today&amp;rsquo;s problem; one being brute force, and the other a sophisticated state machine.
+I chose to do manual sequence generation, which on the second part took a while. I started off using a regex for this, but that proved far too slow, so I walked the string manually after that.
+The clever thing to do is to implement what amounts to a fancy state diagram of repeating sequences &amp;ndash; an effort that is, sadly, too time consuming for this exercise.</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Day 9</title>
+      <link>http://example.org/posts/2015-12-09-advent/</link>
+      <pubDate>Wed, 09 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-09-advent/</guid>
+      <description>Today&amp;rsquo;s challenge was to brute force a travelling salesman problem.
+What I learned after doing this was that Python&amp;rsquo;s itertools make the job I had in mind a lot easier. My turd of an answer is here.</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Day 8</title>
+      <link>http://example.org/posts/2015-12-08-advent/</link>
+      <pubDate>Tue, 08 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-08-advent/</guid>
+      <description>I think the trick with the Day 8 puzzle is to think carefully about what is actually being calculated.
+Many folks sorted this out by running the strings through an eval of some kind. I&amp;rsquo;m not that clever, so I sorted it out with a Perl 1-liner using a sequence of string substitutions. Both parts were amenable to this treatment.</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Day 7</title>
+      <link>http://example.org/posts/2015-12-07-advent/</link>
+      <pubDate>Mon, 07 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-07-advent/</guid>
+      <description>There are lots of clever ways to approach Day 7 &amp;ndash; a logic language (Prolog), a functional language that will just resolve the whole circuit by definition &amp;ndash; that sort of thing.
+Since I&amp;rsquo;m currently a Python programmer, and this is a warm-up for the day, I opted for the brute force solution of passing over the data until every wire is resolved. It&amp;rsquo;s been pointed out to me that this is a very compiler-centric / parser kind of solution, and yes, that&amp;rsquo;s the way I thought of its.</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Day 6</title>
+      <link>http://example.org/posts/2015-12-06-advent/</link>
+      <pubDate>Sun, 06 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-06-advent/</guid>
+      <description>Day 6 presents another problem where knowing the right tool for the job turns out to be very helpful. In this case, it&amp;rsquo;s NumPy.
+NumPy&amp;rsquo;s element-wise operations and subscripting (slicing and dicing!) made the job tractable, at least for me.
+I confess, though, this is the first problem where I&amp;rsquo;ve whiffed on the answer. I only missed once (on each part), but my pride is stil wounded.
+Solution here.</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Day 5</title>
+      <link>http://example.org/posts/2015-12-05-advent/</link>
+      <pubDate>Sat, 05 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-05-advent/</guid>
+      <description>For Day 5, knowledge of what regexes can do is needed.
+While the languages presented are not regular, they are amenable to most extended regex implementations. Both parts of this problem were entirely solvable via bash scripts, which makes my little Unix heart proud.</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Day 4</title>
+      <link>http://example.org/posts/2015-12-04-advent/</link>
+      <pubDate>Fri, 04 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-04-advent/</guid>
+      <description>The Day 4 puzzle is definitely a mining exercise, which made me think that a C solution would be the best place to start.
+It turns out that you don&amp;rsquo;t have to mine all that hard, though, so the Python solution was fast enough. I would argue that this is a straight ahead read the spec and use the appropriate library problem, with space for those who want to cram in some basic multiprocessing.</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Day 3</title>
+      <link>http://example.org/posts/2015-12-03-advent/</link>
+      <pubDate>Thu, 03 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-03-advent/</guid>
+      <description>The Day 3 puzzle presents as overly complicated, given a two-dimensional space, but is an encoding and memoization problem solvable in O(n) with respect to the input.
+My solution is significantly less elegant than the best Python is saw for this. I keep forgetting that a case statement is more or less a lookup table, which is doable with a dictionary.</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Day 2</title>
+      <link>http://example.org/posts/2015-12-02-advent/</link>
+      <pubDate>Wed, 02 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-02-advent/</guid>
+      <description>The Day 2 puzzle is a remember-the-property puzzle &amp;ndash; some simple geometry with the minor twist that instead of checking a bunch of combinations of length, width, and height, all that&amp;rsquo;s necessary is to sort the input values.
+Sometimes it&amp;rsquo;s nice to work with commutative operators.
+It&amp;rsquo;s basic math and some Python to sort through it all was sufficient.</description>
+    </item>
+    
+    <item>
+      <title>Advent of code</title>
+      <link>http://example.org/posts/2015-12-01-advent/</link>
+      <pubDate>Tue, 01 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-01-advent/</guid>
+      <description>Advent of code is a fun programming challenge site running over Christmas. I&amp;rsquo;m quite enjoying the problems so far, largely as warm-ups. Some of the posted solutions are also leagues better than mine, which is helpful.
+Looks like the author and community are over on Reddit.</description>
+    </item>
+    
+    <item>
+      <title>Advent of code: Day 1</title>
+      <link>http://example.org/posts/2015-12-01-advent-2/</link>
+      <pubDate>Tue, 01 Dec 2015 09:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-12-01-advent-2/</guid>
+      <description>The Day 1 puzzle is a parenthesis matching exercise, in a sense, but can be reduced down to a linear run through the input.
+I managed to get the data for solving the first part of this challenge into a Unix one-liner:
+{% highlight bash %} #!/bin/bash cat paren.in | perl -ne &amp;lsquo;print join(&amp;rdquo;\n&amp;rdquo;,split //);&amp;rsquo; | sort | uniq -c {% endhighlight %}
+The code is here.</description>
+    </item>
+    
+    <item>
+      <title>Welcome to Jekyll!</title>
+      <link>http://example.org/posts/2015-07-23-welcome-to-jekyll/</link>
+      <pubDate>Thu, 23 Jul 2015 21:45:10 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2015-07-23-welcome-to-jekyll/</guid>
+      <description>You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve --watch, which launches a web server and auto-regenerates your site when a file is updated.
+To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/posts/2016-02-05-git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2016-02-05-git/</guid>
+      <description>Time to update the dot files repo.
+I generally don&amp;rsquo;t do a lot of care and feeding here, as I&amp;rsquo;m mostly on one machine these days, but it&amp;rsquo;s still useful to do a push every once in a while. In this case, the motivators are:
+ the submodules haven&amp;rsquo;t been updated in a while I was getting submodule errors for the solarized colour scheme, and that was annoying I was working at a Starbucks and the Macbook monitor is a little too small (for the font size I use) to run side-by-side windows for coding  So I went in search for ways to run Python nosetest from vim.</description>
+    </item>
+    
+  </channel>
+</rss>
