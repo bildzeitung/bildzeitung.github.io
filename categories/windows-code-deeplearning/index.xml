@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows Code Deeplearning on hand | paper | lake</title>
-    <link>http://example.org/categories/windows-code-deeplearning/</link>
+    <link>http://bildzeitung.github.io/categories/windows-code-deeplearning/</link>
     <description>Recent content in Windows Code Deeplearning on hand | paper | lake</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 26 Mar 2018 16:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/categories/windows-code-deeplearning/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://bildzeitung.github.io/categories/windows-code-deeplearning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Setting up fast.ai course environment</title>
-      <link>http://example.org/posts/2018-03-26-fastai/</link>
+      <link>http://bildzeitung.github.io/posts/2018-03-26-fastai/</link>
       <pubDate>Mon, 26 Mar 2018 16:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/2018-03-26-fastai/</guid>
+      <guid>http://bildzeitung.github.io/posts/2018-03-26-fastai/</guid>
       <description>The fast.ai course claims to help develop some competence in Deep Learning, so I thought I&amp;rsquo;d give it a go.
 The material is divided into several lessons, and the first one concerns itself with setting up an environment. The environment is geared towards using a VM from an IaaS provider. But, I have a fancy pants Windows box with a fancy pants graphics card.
 Base software At a minimum, I need to source and the course materials * Installed Git For Windows (aka git-bash) * Cloned the repo into the fastai directory</description>
